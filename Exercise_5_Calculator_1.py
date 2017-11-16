@@ -37,7 +37,7 @@ def calculator(n1 , n2 , op = "+" , form = "float"):
         return hasil
     except (ValueError,TypeError):
         print("Please, input the data correctly!")
-calculator(2 , 3.0) #2, 3.0
-calculator(2 , 3.0 , "" , "integer") #2, 3.0, output format is integer
-calculator(2 , 3.0 , ":") #2, 3.0, operation is division
-calculator(2 , 3.0 , ":" , "integer") #2, 3.0, operation is division, output format is integer
+#calculator(2 , 3.0) #2, 3.0
+#calculator(2 , 3.0 , "" , "integer") #2, 3.0, output format is integer
+#calculator(2 , 3.0 , ":") #2, 3.0, operation is division
+#calculator(2 , 3.0 , ":" , "integer") #2, 3.0, operation is division, output format is integer

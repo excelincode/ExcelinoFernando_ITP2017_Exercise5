@@ -87,12 +87,13 @@ def calculator(operator = "+" , o_format = float , *numbers):
         else:
             raise ValueError
         if o_format == float:
-            result = float(result)
+            print("Your desired outcome: ", float(result))
         elif o_format == int:
-            result = round(int(result))
+            print("Your desired outcome: ", int(result))
         else:
             raise ValueError
-    print("final", result) #to check the all calculation outcome
+    print("final integer:", round(result)) #to check the all calculation outcome in rounded integer
+    print("final float: ", float(result)) #to check the all calculation outcome in float
     return result #printing the outcome of all calculation by calling [result] variable
 print(calculator("+", int, 5, 15, 30))
 #print(calculator("+", float, 5, 5, 5))
